@@ -9,22 +9,22 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'building'
+                echo 'building project'
             }
         }
         stage('deploy') {
             steps {
-                echo 'deploying'
+                echo 'deploying project'
             }
         }
         stage('test') {
             steps {
-                echo 'testing'
+                echo 'testing project'
             }
         }
         stage('release') {
             steps {
-                echo 'releasing'
+                echo 'releasing project'
             }
         }
     }
